@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto';
+}
+
+.hero{
+    background-color: #1f2973;
+    height: 400px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    color: #727882;
+    height: 100px;
+}
+
+.logo{
+    color: white;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+
