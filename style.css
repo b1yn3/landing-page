@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: pink;
+    background-color: var(--dark-bg-color);
     color: var(--main-text-color);
     height: 100px;
 }
@@ -27,8 +27,46 @@ header{
 main{
     height: 400px;
     background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.main-text h1{
+    color: var(--main-text-color);
+    font-size: 48px;
+
+}
+
+.main-text {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.main-text p{
+    color: var(--secondary-text-color);
+    font-size: 24px;
+}
+
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: var(--call-to-action);
+}
+
+.main-image{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 60%;
+}
+
+
+.main-image img{
+    width: 300px;
+    margin-left: 15px;
+}
 
 .logo{
     color: white;
@@ -40,7 +78,7 @@ main{
 
 .links{
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 
